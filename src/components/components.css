@@ -1,0 +1,107 @@
+.header {
+    font-family: Impact;
+    font-size: xx-large;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 42%;
+}
+
+.matches-container {
+    position: absolute;
+    left: 0;
+    top: 5%;
+    height: 700px;
+    width: 330px;
+    border: solid 5px lightgreen;
+}
+
+.profile-header {
+    background-color: lightgreen;
+    align-items: center;
+    display: flex;
+    overflow: auto;
+}
+
+.pet-container {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+.swipe-left {
+    background-color: white;
+    border: 0px;
+    position: absolute;
+    left: -15%;
+    top: 35%;
+    font-size: 50px;
+}
+
+.swipe-right {
+    background-color: white;
+    border: 0px;
+    position: absolute;
+    right: -15%;
+    top: 35%;
+    font-size: 50px;
+}
+
+.match-section {
+    display: inline-block;
+
+}
+
+.chat-window {
+    z-index: 2;
+    /*
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    */
+    border: 5px solid pink;
+}
+
+.chat-window-header {
+    height: 5%;
+    width: 100%;
+    background-color: pink;
+}
+
+.chat-area {
+    width: 65%;
+    height: 95%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    background-color: snow;
+}
+
+.chat-content {
+    height: 70%;
+    width: 100%;
+}
+
+.match-info {
+    width: 35%;
+    height: 95%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+button:focus {
+    outline: 0;
+    border: 0;
+}
+
+textarea {
+    border: pink;
+    background-color: whitesmoke;
+}
+
