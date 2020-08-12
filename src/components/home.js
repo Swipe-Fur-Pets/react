@@ -53,7 +53,7 @@ class Home extends Component {
 
   componentDidMount() {
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", "http://localhost:8080/Backend2/AdopterPreferences");
+    xhr.open("GET", "http://localhost:8080/Test-pet/AdopterPreferences");
     xhr.send();
     
     
@@ -143,7 +143,7 @@ class Home extends Component {
     //const current = JSON.parse(temp);
     console.log(temp);
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8080/Backend2/Match?pet_name=" + temp.Pet_Name + "&pettype=" + temp.PetType + "&size=" + temp.Size + "&age=" + temp.Age + "&gender=" + temp.Gender + "&rescue_id=" + temp.Rescus_ID + "&imglink=" + temp.ImgLink + "&children=" + temp.Children + "&dogs=" + temp.Dogs + "&cats=" + temp.Cats);
+    xhr.open("POST", "http://localhost:8080/Test-pet/Match?pet_name=" + temp.Pet_Name + "&pettype=" + temp.PetType + "&size=" + temp.Size + "&age=" + temp.Age + "&gender=" + temp.Gender + "&rescue_id=" + temp.Rescus_ID + "&imglink=" + temp.ImgLink + "&children=" + temp.Children + "&dogs=" + temp.Dogs + "&cats=" + temp.Cats);
     xhr.send();
     
     xhr.onload = () => {
